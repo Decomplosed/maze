@@ -1,6 +1,6 @@
 const { Engine, Render, Runner, World, Bodies } = Matter
 
-const cells = 5
+const cells = 3
 const width = 600
 const height = 600
 
@@ -44,5 +44,7 @@ const horizontals = Array(cells - 1)
   .fill(null)
   .map(() => Array(cells).fill(false))
 
+const startRow = Math.floor(Math.random() * cells)
+const startColumn = Math.floor(Math.random() * cells)
 
-console.log(grid);
+
