@@ -1,4 +1,4 @@
-const { Engine, Render, Runner, World, Bodies, MouseConstraint } = Matter
+const { Engine, Render, Runner, World, Bodies, MouseConstraint, Mouse } = Matter
 
 const engine = Engine.create()
 const { world } = engine
