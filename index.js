@@ -9,6 +9,7 @@ const render = Render.create({
   element: document.body,
   engine: engine,
   options: {
+    wireframes: false,
     width,
     height
   }
@@ -43,7 +44,11 @@ for (let i = 0; i < 50; i++) {
   } else {
     World.add(
       world,
-      Bodies.circle(Math.random() * width, Math.random() * height, 35)
+      Bodies.circle(Math.random() * width, Math.random() * height, 35, {
+        render: {
+          fillStyle: 'green'
+        }
+      })
     )
   }
 }
