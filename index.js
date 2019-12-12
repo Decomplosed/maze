@@ -54,6 +54,7 @@ const stepThroughCell = (row, column) => {
   }
 
   // Mark this cell as being visited
+  grid[row][column] = true
 }
 
 stepThroughCell(startRow, startColumn)
