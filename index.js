@@ -14,6 +14,10 @@ const render = Render.create({
 Render.run(render)
 Runner.run(Runner.create(), engine)
 
+World.add(world, MouseConstraint.create(engine, {
+  mouse: MouseConstraint.create(render.canvas)
+}))
+
 // Walls
 
 const walls = [
