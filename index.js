@@ -10,3 +10,6 @@ const render = Render.create({
     height: 600
   }
 })
+
+Render.run(render)
+Render.run(Runner.create(), engine)
