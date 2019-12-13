@@ -187,7 +187,8 @@ document.addEventListener('keydown', event => {
   }
 
   if (event.keyCode === 68) {
-    console.log('move ball right')
+    Body.setVelocity(ball, { x, y: y - 5 })
+
   }
 
   if (event.keyCode === 83) {
