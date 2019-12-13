@@ -188,11 +188,10 @@ document.addEventListener('keydown', event => {
 
   if (event.keyCode === 68) {
     Body.setVelocity(ball, { x: x + 5, y })
-
   }
 
   if (event.keyCode === 83) {
-
+    Body.setVelocity(ball, { x, y: y + 5 })
   }
 
   if (event.keyCode === 65) {
