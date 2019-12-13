@@ -117,8 +117,8 @@ const stepThroughCell = (row, column) => {
 
 stepThroughCell(startRow, startColumn)
 
-horizontals.forEach(row => {
-  row.forEach((open) => {
+horizontals.forEach((row, rowIndex) => {
+  row.forEach((open, columnIndex) => {
     if (open) {
       return
     }
