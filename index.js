@@ -154,3 +154,9 @@ verticals.forEach((row, rowIndex) => {
     World.add(world, wall)
   })
 })
+
+const goal = Bodies.rectangle(
+
+)
+
+World.add(world, goal)
