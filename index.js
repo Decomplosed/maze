@@ -135,3 +135,15 @@ horizontals.forEach((row, rowIndex) => {
     World.add(world, wall)
   })
 })
+
+verticals.forEach((row, rowIndex) => {
+  row.forEach((open, rowIndex) => {
+    if (open) {
+      return
+    }
+
+    const wall = Bodies.rectangle(
+      
+    )
+  })
+})
