@@ -184,7 +184,7 @@ document.addEventListener('keydown', event => {
     console.log('move ball up')
   }
 
-  if (event.keyCode === 87) {
+  if (event.keyCode === 68) {
     console.log('move ball right')
   }
 
