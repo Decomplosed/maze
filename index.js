@@ -172,5 +172,9 @@ World.add(world, goal)
 // Ball
 
 const ball = Bodies.circle(
-
+  unitLength / 2,
+  unitLength / 2,
+  unitLength * .3
 )
+
+World.add(world, ball)
