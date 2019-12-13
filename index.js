@@ -127,7 +127,7 @@ horizontals.forEach((row, rowIndex) => {
       columnIndex * unitLength + unitLength / 2,
       rowIndex * unitLength + unitLength,
       unitLength,
-      10,
+      5,
       {
         isStatic: true
       }
@@ -145,7 +145,7 @@ verticals.forEach((row, rowIndex) => {
     const wall = Bodies.rectangle(
       columnIndex * unitLength + unitLength,
       rowIndex * unitLength + unitLength / 2,
-      10,
+      5,
       unitLength,
       {
         isStatic: true
