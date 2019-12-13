@@ -123,6 +123,8 @@ horizontals.forEach(row => {
       return
     }
 
-    const wall = Bodies.rectangle()
+    const wall = Bodies.rectangle(
+      columnIndex * unitLength + unitLength / 2
+    )
   })
 })
