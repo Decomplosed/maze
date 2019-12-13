@@ -183,7 +183,7 @@ document.addEventListener('keydown', event => {
   const { x, y } = ball.velocity
 
   if (event.keyCode === 87) {
-
+    Body.setVelocity(ball, { x, y: y - 5 })
   }
 
   if (event.keyCode === 68) {
