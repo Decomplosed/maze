@@ -195,6 +195,6 @@ document.addEventListener('keydown', event => {
   }
 
   if (event.keyCode === 65) {
-    console.log('move ball left')
+    Body.setVelocity(ball, { x: x + 5, y })
   }
 })
